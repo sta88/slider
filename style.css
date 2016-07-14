@@ -1,0 +1,222 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	outline: 0;
+	font-size: 100%;
+	}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+:focus {
+	outline: 0;
+}
+html, body { 
+	line-height: 1;
+	}
+img {
+	border:0;
+	}
+button, input {
+	overflow:visible;
+	}
+table {
+	border-spacing: 0;
+	border-collapse:collapse;
+	}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+caption, th, td {
+text-align:left;
+}
+th {
+font-weight:normal;
+}
+h1 {
+	font-size:36px;
+	margin-bottom:25px;
+	font-weight: normal;
+	font-style: italic;
+    color:#333;
+    line-height: 0.9em;
+	}
+h2 {
+	font-size:30px;
+	margin-bottom:20px;
+	font-weight: normal;
+	font-style: italic;
+    color:#333;
+	}
+h3 {
+    font-size:26px;
+	margin-bottom:15px;
+	padding-top: 15px;
+	font-weight: normal;
+	font-style: italic;
+    color:#333;
+	}
+h4 {
+	font-size:1.3em;
+    margin-bottom: .5em;
+    color:#0097ab
+	}
+h5 {
+	font-size:1.2em;
+	margin-top:1.6em;
+	margin-bottom:.4em;
+	}
+h6 {
+	font-size:1em;
+	margin-top:1.7em;
+	margin-bottom:.5em;
+	}
+ol li {
+	list-style-type:decimal;
+	}
+ol, ul {
+	margin-bottom:1.5em;
+	}
+ol li, 
+ul li {
+	margin-bottom:.3em;
+	}
+ol li li, 
+ul li li {
+	margin-bottom:.2em;
+	}
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+	margin-bottom:1em;
+	}
+ul {
+    margin:0;
+    padding:0;
+    }
+ul li {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    }
+p {
+    margin-bottom:17px;
+    line-height: 1.3em;
+    }
+caption {
+	clear:both;
+	text-align:left;
+	font-weight:bold;
+	}
+
+
+/*------------------------- /RESET.CSS ----------------------------------*/
+@font-face {
+    font-family: "ALSRubl-Verdana";
+    font-style: normal;
+    font-weight: normal;
+    src: url("font/alsrubl-verdana-regular.eot?#iefix") format("embedded-opentype"), url("font/alsrubl-verdana-regular.woff") format("woff"), url("font/alsrubl-verdana-regular.ttf") format("truetype"), url("font/alsrubl-verdana-regular.svg#ALSRublRegular") format("svg");
+}
+
+html, body { height:100%;}
+body {
+	background: #fff;
+	color: #000;
+	font: 13px 'Myriad Pro', 'Arial', sans-serif;
+}
+a {
+	color: #000;
+    transition: all 0.15s ease 0s;
+	-webkit-transition: all 0.15s ease 0s;
+    -moz-transition: all 0.15s ease 0s;
+    -o-transition: all 0.15s ease 0s;
+    transition: all 0.15s ease 0s;
+}
+a:hover{
+	color: #d85555;
+    transition: all 0.15s ease 0s;
+	-webkit-transition: all 0.15s ease 0s;
+    -moz-transition: all 0.15s ease 0s;
+    -o-transition: all 0.15s ease 0s;
+    transition: all 0.15s ease 0s;
+}
+.b-left{
+	float: left;
+}
+.b-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.wrapper {
+    height: auto !important;
+    margin: 0 auto -75px;
+    min-height: 100%;
+    position: relative;
+}
+.in{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+
+.slider-wrap{
+	position: relative;
+	margin-top: 50px;
+	padding-bottom: 40px;
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	overflow: hidden;
+}
+	.slider{
+		font-size: 0;
+		white-space: nowrap;
+		-webkit-transition: all 0.15s ease;
+		-moz-transition: all 0.15s ease;
+		-o-transition: all 0.15s ease;
+		transition: all 0.15s ease;
+	}
+	.slider-item{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.slider-nav{
+		display: block;
+		padding: 5px 15px 4px;
+		background: #ccc;
+		text-decoration: none;
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.slider-prev{
+		float: left;
+	}
+	.slider-next{
+		float: right;
+	}
